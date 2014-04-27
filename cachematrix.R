@@ -1,7 +1,8 @@
-## The following two functions calculate and cache 
+## The following two functions calculate and cache
 ## the inverse of an input matrix.
 
-## The makeCacheMatrix function creates an object that stores an input matrix 
+
+## The makeCacheMatrix function creates an object that stores an input matrix
 ## and caches the inverse of this matrix. This object consists of a list of
 ## functions with the following purposes:
 ##   set(): set the data of the matrix
@@ -22,8 +23,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## The cacheSolve function calculates the inverse of the input matrix stored 
-## within the object returned by makeCacheMatrix. If the cache is empty, the 
+## The cacheSolve function calculates the inverse of the input matrix stored
+## within the object returned by makeCacheMatrix. If the cache is empty, the
 ## inverse of the input matrix will be calculated and cached. If the inverse
 ## has already been calculated and the input matrix data has not been altered,
 ## then cacheSolve will directly return the inverse value stored in the cache.
